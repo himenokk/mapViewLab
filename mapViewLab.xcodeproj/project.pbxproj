@@ -17,7 +17,8 @@
 		577FE56D2B70D59A00062C14 /* mapViewLabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577FE56C2B70D59A00062C14 /* mapViewLabUITests.swift */; };
 		577FE56F2B70D59A00062C14 /* mapViewLabUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577FE56E2B70D59A00062C14 /* mapViewLabUITestsLaunchTests.swift */; };
 		577FE57C2B70DBEE00062C14 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577FE57B2B70DBEE00062C14 /* TableViewController.swift */; };
-		577FE57E2B70EDD700062C14 /* list.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577FE57D2B70EDD700062C14 /* list.swift */; };
+		577FE57E2B70EDD700062C14 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577FE57D2B70EDD700062C14 /* List.swift */; };
+		694D51F22B710E3F006F602A /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694D51F12B710E3F006F602A /* mapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +53,8 @@
 		577FE56C2B70D59A00062C14 /* mapViewLabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapViewLabUITests.swift; sourceTree = "<group>"; };
 		577FE56E2B70D59A00062C14 /* mapViewLabUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapViewLabUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		577FE57B2B70DBEE00062C14 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		577FE57D2B70EDD700062C14 /* list.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = list.swift; sourceTree = "<group>"; };
+		577FE57D2B70EDD700062C14 /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		694D51F12B710E3F006F602A /* mapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,11 +109,12 @@
 				577FE54D2B70D59900062C14 /* SceneDelegate.swift */,
 				577FE54F2B70D59900062C14 /* ViewController.swift */,
 				577FE57B2B70DBEE00062C14 /* TableViewController.swift */,
+				694D51F12B710E3F006F602A /* mapViewController.swift */,
 				577FE5512B70D59900062C14 /* Main.storyboard */,
 				577FE5542B70D59900062C14 /* Assets.xcassets */,
 				577FE5562B70D59900062C14 /* LaunchScreen.storyboard */,
 				577FE5592B70D59900062C14 /* Info.plist */,
-				577FE57D2B70EDD700062C14 /* list.swift */,
+				577FE57D2B70EDD700062C14 /* List.swift */,
 			);
 			path = mapViewLab;
 			sourceTree = "<group>";
@@ -264,9 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				577FE57E2B70EDD700062C14 /* list.swift in Sources */,
+				577FE57E2B70EDD700062C14 /* List.swift in Sources */,
 				577FE5502B70D59900062C14 /* ViewController.swift in Sources */,
 				577FE54C2B70D59900062C14 /* AppDelegate.swift in Sources */,
+				694D51F22B710E3F006F602A /* mapViewController.swift in Sources */,
 				577FE54E2B70D59900062C14 /* SceneDelegate.swift in Sources */,
 				577FE57C2B70DBEE00062C14 /* TableViewController.swift in Sources */,
 			);
